@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    font-size: 40px;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif
+}
+
+body > ul > li > a {
+    color: red;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 30px;
+}
