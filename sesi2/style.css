@@ -10,11 +10,26 @@ h2 {
     font-family: sans-serif
 }
 
-body > ul > li > a {
-    color: red;
-}
 
 p {
     font-size: 12px;
     font-weight: 30px;
+}
+
+body {
+    background: white;
+    background-repeat : repeat-x;
+    background-position : 10px 10px;
+    background-size: cover;
+}
+
+.box {
+    margin : 20px;
+    border : 1px solid black;
+    padding : 20px;
+    width : 400px;
+    height : 400px;
+    box-sizing: border-box;
+    position: relative; 
+    background-image: linear-gradient(red, blue)
 }
