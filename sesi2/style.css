@@ -1,35 +1,35 @@
 h1 {
-    color: red;
-    font-size: 40px;
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif
+    color              : red;
+    font-size          : 40px;
+    font-family        : Roboto, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 h2 {
-    color: black;
-    font-size: 40px;
-    font-family: sans-serif
+    color              : black;
+    font-size          : 40px;
+    font-family        : sans-serif
 }
 
 
 p {
-    font-size: 12px;
-    font-weight: 30px;
+    font-size          : 12px;
+    font-weight        : 30px;
 }
 
 body {
-    background: white;
-    background-repeat : repeat-x;
-    background-position : 10px 10px;
-    background-size: cover;
+    background         : white;
+    background-repeat  : repeat-x;
+    background-position: 10px 10px;
+    background-size    : cover;
 }
 
 .box {
-    margin : 20px;
-    border : 1px solid black;
-    padding : 20px;
-    width : 400px;
-    height : 400px;
-    box-sizing: border-box;
-    position: relative; 
-    background-image: linear-gradient(red, blue)
+    margin             : 20px;
+    border             : 1px solid black;
+    padding            : 20px;
+    width              : 400px;
+    height             : 400px;
+    box-sizing         : border-box;
+    position           : relative; 
+    background-image   : linear-gradient(red, blue)
 }

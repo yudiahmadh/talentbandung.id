@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    font-family             : 'Roboto', sans-serif, serif;
+    margin                  : 0;
+}
+
+body {
+    background-image        : url(images/backgroundcomp.png);
+    background-color        : #F8F9FA;
+    background-repeat       : no-repeat;
+    background-size         : 100%;
+    max-width               : 1650px;
+}
+
+p {
+    margin-bottom           : 1em; /* 16px */
+}
+
+a {
+    text-decoration         : none;
+}
+
+.site-content{
+    text-align              : center;
+}
+
+.hero {
+    padding                 : 85px;
+}
+
+.hero p {
+    font-size               : 17px;
+    margin-bottom           : 3em;
+    padding                 : 0 20%;
+}
+
+h1 .subtitle {
+    display                 : block;
+    font-family             : 'Caveat', cursive;
+    font-size               : 64px;
+    font-weight             : normal;
+    margin-top              : 65px;
+}
+
+h1 .title {
+    display                 : block;
+    font-family             : 'Playfair Display', serif;
+    font-size               : 72px;
+    margin-bottom           : 75px;
+}
+
+.foto-balai-kota {
+    margin-bottom           : 100px;
+}
+
+.taman-balkot {
+    display                 : inline-block;
+    margin                  : 15px;
+    box-sizing              : border-box;
+}
+
+.button1 {
+    background-color        : #22b8cf;
+    text-align              : center;
+    color                   : white;
+    padding                 : 10px 15px;
+    border                  : none;
+    border-radius           : 25px;
+    margin-right            : 5px;
+    cursor                  : pointer;
+}
+
+.button2 {
+    background-color        : #329af0;
+    text-align              : center;
+    color                   : white;
+    padding                 : 10px 15px;
+    border                  : none;
+    border-radius           : 25px;
+    margin-left             : 5px;
+    cursor                  : pointer;
+}
+
+.footer {
+    font-size               : 16px;
+}
+
+
+/* CSS untuk MAP */
+.map {
+    position                : relative;
+    margin-bottom           : 100px;
+}
+
+.map img {
+    margin                  : 0 auto;
+    width                   : 100%;
+}
+
+/* Responsive Rule */
+@media screen and (max-width: 360px) {
+    .button1 {
+        margin              : 0 0 20px;
+    }
+
+    .button2 {
+        margin              : 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        padding             : 45px;
+    }
+
+    h1 .subtitle {
+        font-size           : 35px;
+        margin-top          : 0px;
+    }
+
+    h1 .title {
+        font-size           : 45px;
+        margin-bottom       : 55px;
+    }
+
+    .hero p {
+        padding             : 0;
+    }
+
+    .foto-balai-kota {
+        margin-bottom       : 60px;
+    }
+
+    .taman-balkot {
+        width               : 75% !important;
+    }
+
+    .map img {
+        height              : 210px;
+    }
+
+    .footer {
+        font-size           : 12px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .taman-balkot {
+        width               : 27%;
+    }
+
+    .taman-balkot img {
+        width               : 100%;
+    }
+}
