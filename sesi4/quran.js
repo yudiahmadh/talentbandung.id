@@ -99,9 +99,13 @@ var quran = {
 }
 
 console.log(quran.data.name);
-console.log(quran.data.ayahs[0].text);
+/* console.log(quran.data.ayahs[0].text);
 console.log(quran.data.ayahs[1].text);
 console.log(quran.data.ayahs[2].text);
 console.log(quran.data.ayahs[3].text);
 console.log(quran.data.ayahs[4].text);
-console.log(quran.data.ayahs[5].text);
+console.log(quran.data.ayahs[5].text); */
+
+for(i=0; i<quran.data.ayahs.length; i++) {
+    console.log(quran.data.ayahs[i].text);
+}
